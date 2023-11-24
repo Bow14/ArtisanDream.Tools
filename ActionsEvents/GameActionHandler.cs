@@ -5,20 +5,21 @@ using UnityEngine.Events;
 public class GameActionHandler : MonoBehaviour
 {
     public GameAction action;
-    public UnityEvent startEvent, respondEvent, respondLateEvent, runInAnimatorEvent;
+    public UnityEvent startEvent, respondEvent, respondLateEvent, runInAnimatorEvent, onRaiseEvent;
     public float holdTime = 0.1f;
     private WaitForSeconds waitObj;
 
     private void Start()
     {
         startEvent.Invoke();
+        
     }
 
-    private void OnEnable()
-    {
-        waitObj = new WaitForSeconds(holdTime);
-        action.raiseNoArgs += Respond;
-    }
+   // private void OnEnable()
+    // {
+    //     waitObj = new WaitForSeconds(holdTime);
+    //     action.raiseNoArgs += Respond;
+    // }
 
     private void Respond()
     {
@@ -37,8 +38,14 @@ public class GameActionHandler : MonoBehaviour
         runInAnimatorEvent.Invoke();
     }
 
-    private void OnDestroy()
+    // private void OnDestroy()
+    // {
+    //     action.raiseNoArgs = null;
+    // }
+    private void Raise()
     {
-        action.raiseNoArgs = null;
+        onRaiseEvent.Invoke();
     }
+    
+    
 }

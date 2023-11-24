@@ -4,7 +4,7 @@ using UnityEngine.Events;
 [CreateAssetMenu(menuName = "Single Variables/FloatData")]
 public class FloatData : NameId
 {
-    [SerializeField] private float value, minValue, maxValue;
+    [SerializeField] public float value, minValue, maxValue;
     public float Value 
     {
         get => value;

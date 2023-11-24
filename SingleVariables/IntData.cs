@@ -5,7 +5,7 @@ using Object = UnityEngine.Object;
 [CreateAssetMenu(menuName = "Single Variables/IntData")]
 public class IntData : ScriptableObject
 {
-    [SerializeField] private int value, minValue, maxValue;
+    [SerializeField] public int value, minValue, maxValue;
     public int Value 
     {
         get => value;
