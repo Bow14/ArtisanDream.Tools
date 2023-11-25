@@ -152,10 +152,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 654889820}
-<<<<<<< HEAD:Store/NewStore.unity
-  m_RootOrder: 0
-=======
->>>>>>> 9f9c782599113fc573d4471496a1df835498ae1e:Store/ExampleScenes/NewStore.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &26594438
 AudioSource:
@@ -323,10 +319,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 654889820}
-<<<<<<< HEAD:Store/NewStore.unity
-  m_RootOrder: 1
-=======
->>>>>>> 9f9c782599113fc573d4471496a1df835498ae1e:Store/ExampleScenes/NewStore.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &276806756
 AudioSource:
@@ -527,10 +519,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1320612209}
-<<<<<<< HEAD:Store/NewStore.unity
-  m_RootOrder: 1
-=======
->>>>>>> 9f9c782599113fc573d4471496a1df835498ae1e:Store/ExampleScenes/NewStore.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -883,16 +871,13 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!95 &1320612213
 Animator:
-<<<<<<< HEAD:Store/NewStore.unity
-  serializedVersion: 5
-=======
   serializedVersion: 7
->>>>>>> 9f9c782599113fc573d4471496a1df835498ae1e:Store/ExampleScenes/NewStore.unity
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -911,10 +896,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
-<<<<<<< HEAD:Store/NewStore.unity
-=======
   m_WriteDefaultValuesOnDisable: 0
->>>>>>> 9f9c782599113fc573d4471496a1df835498ae1e:Store/ExampleScenes/NewStore.unity
 --- !u!114 &1320612214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1345,10 +1327,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1320612209}
-<<<<<<< HEAD:Store/NewStore.unity
-  m_RootOrder: 0
-=======
->>>>>>> 9f9c782599113fc573d4471496a1df835498ae1e:Store/ExampleScenes/NewStore.unity
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
