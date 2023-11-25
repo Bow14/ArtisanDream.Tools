@@ -6,11 +6,16 @@ public class GameAction : ScriptableObject
 {
     public UnityAction<object> raise;
     public UnityAction raiseNoArgs;
+    public SpriteRenderer spriteObj;
     
     
     public void Raise()
     {
         raiseNoArgs?.Invoke();
+    }
+    public void Raise(Sprite sprite)
+    {
+        spriteObj.sprite = sprite;
     }
     public void Raise(object obj)
     {

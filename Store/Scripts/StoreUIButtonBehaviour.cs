@@ -8,6 +8,8 @@ public class StoreUIButtonBehaviour : InventoryUIButtonBehaviour
     public GameAction purchaseActionObj;
     public UnityEvent purchaseEvent, noPurchaseEvent;
     public IntData cash;
+    public InventoryData inventoryDataObj;
+    public InventoryConfigBehaviour inventoryConfigBehaviour;
     public Text PriceLabel { get; private set; }
     public Toggle ToggleObj { get; private set; }
     public IStoreItem StoreItemObj { get; set; }
@@ -39,6 +41,8 @@ public class StoreUIButtonBehaviour : InventoryUIButtonBehaviour
             ToggleObj.isOn = true;
             cash.UpdateValue(-StoreItemObj.Price);
             ButtonObj.interactable = false;
+            var purChasedItem = StoreItemObj as InventoryItem;
+            purChasedItem.OnPurchase(inventoryDataObj);
             purchaseEvent?.Invoke();
             purchaseActionObj.Raise();
         }

@@ -1,9 +1,12 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class InventoryUIButtonBehaviour : MonoBehaviour
 {
+    public GameAction gameActionSpriteObj, gameActionItemDropObj;
+    public UnityEvent spriteRaiseEvent, itemDropRaiseEvent;
     public Button ButtonObj { get; private set; }
     public TextMeshProUGUI Label { get; private set; }
     
@@ -36,8 +39,21 @@ public class InventoryUIButtonBehaviour : MonoBehaviour
 
     private void HandleButtonClick()
     {
-        if (InventoryItemObj == null) return;
-        InventoryItemObj.UsedOrPurchase = false;
-        ButtonObj.interactable = false;
+        if (InventoryItemObj != null && InventoryItemObj.UsedOrPurchase)
+        {
+              
+        if (InventoryItemObj.PreviewArt != null)
+        {
+            Debug.Log("Background is not null");
+            ButtonObj.image.sprite = InventoryItemObj.PreviewArt;
+            gameActionSpriteObj.Raise(ButtonObj.image.sprite);
+            spriteRaiseEvent.Invoke();
+        }
+        
+        }
+        // if (InventoryItemObj == null) return;
+        // InventoryItemObj.UsedOrPurchase = false;
+        // ButtonObj.interactable = false;
+      
     }
 }

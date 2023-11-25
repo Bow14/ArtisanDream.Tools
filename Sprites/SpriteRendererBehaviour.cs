@@ -5,12 +5,18 @@ using UnityEngine.Events;
 public class SpriteRendererBehaviour : MonoBehaviour
 {
     private SpriteRenderer spriteRendererObj;
-    public UnityEvent startEvent;
+    public GameAction gameActionObj;
+    public UnityEvent startEvent, raiseEvent;
     
     void Start()
     {
         spriteRendererObj = GetComponent<SpriteRenderer>();
         startEvent.Invoke();
+    }
+
+    private void Raise()
+    {
+        raiseEvent.Invoke();
     }
 
     public void ChangeSpriteColor(ColorData colorDataObj)
@@ -22,5 +28,10 @@ public class SpriteRendererBehaviour : MonoBehaviour
     {
         var dimensions = cam.rect;
         spriteRendererObj.size = dimensions.size;
+    }
+
+    public void ChangeRenderSprite()
+    {
+        spriteRendererObj.sprite = gameActionObj.spriteObj.sprite;
     }
 }

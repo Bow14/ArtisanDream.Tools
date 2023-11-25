@@ -31,6 +31,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1403833563}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -111,6 +112,7 @@ RectTransform:
   m_Children:
   - {fileID: 1155592516}
   m_Father: {fileID: 1403833563}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
@@ -186,6 +188,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 781132797}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -262,6 +265,7 @@ RectTransform:
   - {fileID: 781132797}
   - {fileID: 286436290}
   m_Father: {fileID: 2251097690692020461}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -351,6 +355,7 @@ RectTransform:
   - {fileID: 8121499741566896102}
   - {fileID: 1403833563}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -438,31 +443,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 8456886031509015116}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 7ebd98afc5c5c4e329172fd812dc7d0a, type: 2}
-        m_TargetAssemblyTypeName: IntData, Assembly-CSharp
-        m_MethodName: CheckMinValue
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 5412739403429779018}
-        m_TargetAssemblyTypeName: StoreUIBehaviour, Assembly-CSharp
-        m_MethodName: OnMouseDown
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &5412739403429779018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +456,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b66719d810fa435e9ec90323f3915cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameActionSpriteObj: {fileID: 11400000, guid: e0beb04413277de429532db81969fdcb, type: 2}
+  gameActionItemDropObj: {fileID: 0}
+  spriteRaiseEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  itemDropRaiseEvent:
+    m_PersistentCalls:
+      m_Calls: []
   purchaseActionObj: {fileID: 11400000, guid: 250d90a0d99e4418598835030a603af3, type: 2}
   purchaseEvent:
     m_PersistentCalls:
@@ -506,7 +495,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  cash: {fileID: 11400000, guid: 7ebd98afc5c5c4e329172fd812dc7d0a, type: 2}
+  cash: {fileID: 11400000, guid: a7e14806b910a2d46a4b61f995393f00, type: 2}
+  inventoryDataObj: {fileID: 0}
+  inventoryConfigBehaviour: {fileID: 0}
 --- !u!1 &6062888167021909034
 GameObject:
   m_ObjectHideFlags: 0
@@ -538,6 +529,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2251097690692020461}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}

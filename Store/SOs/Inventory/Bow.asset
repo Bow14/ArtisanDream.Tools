@@ -18,5 +18,5 @@ MonoBehaviour:
   intLevel: 0
   floatLevel: 0
   gameArt: {fileID: 71354544342217495, guid: defd6ed1577724f09b20bd7446f9607b, type: 3}
-  usedOrPurchase: 0
+  usedOrPurchase: 1
   gameActionObj: {fileID: 11400000, guid: cd7c935b292a74f6e8d84318041fa5b2, type: 2}
