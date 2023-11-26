@@ -8,10 +8,11 @@ public class SpriteRendererBehaviour : MonoBehaviour
     public GameAction gameActionObj;
     public UnityEvent startEvent, raiseEvent;
     
-    void Start()
+    void Awake()
     {
         spriteRendererObj = GetComponent<SpriteRenderer>();
         startEvent.Invoke();
+        gameActionObj.raiseNoArgs += Raise;
     }
 
     private void Raise()

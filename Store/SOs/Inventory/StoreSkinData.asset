@@ -10,11 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4c14d231fbc64037880ab11962719fc, type: 3}
-  m_Name: 0 Store Data
+  m_Name: StoreSkinData
   m_EditorClassIdentifier: 
   cash: {fileID: 11400000, guid: a7e14806b910a2d46a4b61f995393f00, type: 2}
   inventory:
-  - {fileID: 11400000, guid: 733e9c0a50d434b29a353336811ccd1b, type: 2}
-  - {fileID: 11400000, guid: 2fee04f643b5745a981224d0a1dcf696, type: 2}
-  - {fileID: 11400000, guid: 3bd3404ff05e54d8bbfe63cad84d7084, type: 2}
-  - {fileID: 11400000, guid: db0bf52636f0944e999e5678252707d4, type: 2}
+  - {fileID: 11400000, guid: b3887ad1e832124469bd94d169850742, type: 2}
+  - {fileID: 11400000, guid: ed4d12cadab7410489f50811d927e4f8, type: 2}

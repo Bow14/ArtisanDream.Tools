@@ -17,6 +17,6 @@ MonoBehaviour:
   previewArt: {fileID: 21300000, guid: 15685e01083fba141972f9df6a9b6a96, type: 3}
   intLevel: 0
   floatLevel: 0
-  gameArt: {fileID: 0}
+  gameArt: {fileID: 271830044773821372, guid: 505125d0761d51b4dbc7a37c70f0eebc, type: 3}
   usedOrPurchase: 0
   gameActionObj: {fileID: 0}

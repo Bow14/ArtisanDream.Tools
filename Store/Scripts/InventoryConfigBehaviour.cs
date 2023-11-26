@@ -14,7 +14,7 @@ public class InventoryConfigBehaviour : MonoBehaviour
         buttonEvent.Invoke();
     }
     
-    private void AddItemsToUI<T>(List<T> items)
+    /*private void AddItemsToUI<T>(List<T> items)
     {
 
         foreach (var item in items)
@@ -37,12 +37,13 @@ public class InventoryConfigBehaviour : MonoBehaviour
                 }
             }
 
-            ConfigureElement(element, item);
+            ConfigureElement(element, item);*/
 
            
-        }
-    }
+    //     }
+    // }
     
+    /*
     private void ConfigureElement<T>(GameObject element, T item)
     {
         Vector3 toggelScaleFactor = Vector3.one * 4;
@@ -87,6 +88,7 @@ public class InventoryConfigBehaviour : MonoBehaviour
             elementData.ButtonObj.transform.position += buttonMoveFactor;
         }
     }
+    */
     
     public void AddAllInventoryItemsToUI()
     {

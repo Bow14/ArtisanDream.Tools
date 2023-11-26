@@ -33,7 +33,7 @@ public class InventoryUIButtonBehaviour : MonoBehaviour
             ButtonObj.onClick.AddListener(inventoryItem.Raise);
         else
         {
-            ButtonObj.interactable = false;
+            ButtonObj.interactable = true;
         }
     }
 
@@ -44,7 +44,7 @@ public class InventoryUIButtonBehaviour : MonoBehaviour
               
         if (InventoryItemObj.PreviewArt != null)
         {
-            Debug.Log("Background is not null");
+            Debug.Log("Snappa is not null");
             ButtonObj.image.sprite = InventoryItemObj.PreviewArt;
             gameActionSpriteObj.Raise(ButtonObj.image.sprite);
             spriteRaiseEvent.Invoke();
