@@ -15,7 +15,7 @@ public class SpriteRendererBehaviour : MonoBehaviour
         gameActionObj.raiseNoArgs += Raise;
     }
 
-    private void Raise()
+    public void Raise()
     {
         raiseEvent.Invoke();
     }

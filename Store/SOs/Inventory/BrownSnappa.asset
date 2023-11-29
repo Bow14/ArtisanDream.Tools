@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7fef72ee1b95948a7a76c065548ea42e, type: 3}
-  m_Name: GreenSnappa
+  m_Name: BrownSnappa
   m_EditorClassIdentifier: 
-  price: 200
+  price: 150
   own: 0
-  previewArt: {fileID: 21300000, guid: e8f3f4a4fd95dda43bb84f675eed683b, type: 3}
+  previewArt: {fileID: 21300000, guid: 7ccdbb85afc2f984da6adfad3c875efa, type: 3}
   intLevel: 0
   floatLevel: 0
-  gameArt: {fileID: 5599901190429236057, guid: 72ef2d935cdbb774cbdb9b407983657c, type: 3}
-  usedOrPurchase: 1
+  gameArt: {fileID: 3350002525067117039, guid: 9d0bbd0550e29064f972e00f2bdcabc2, type: 3}
+  usedOrPurchase: 0
   gameActionObj: {fileID: 0}
