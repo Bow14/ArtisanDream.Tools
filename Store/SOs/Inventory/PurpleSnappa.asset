@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fef72ee1b95948a7a76c065548ea42e, type: 3}
   m_Name: PurpleSnappa
   m_EditorClassIdentifier: 
-  price: 75
+  price: 120
   own: 0
   previewArt: {fileID: 21300000, guid: 15685e01083fba141972f9df6a9b6a96, type: 3}
   intLevel: 0

@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fef72ee1b95948a7a76c065548ea42e, type: 3}
   m_Name: RedSnappa
   m_EditorClassIdentifier: 
-  price: 250
+  price: 280
   own: 1
   previewArt: {fileID: 21300000, guid: 658aa244a0ed33f46bdccf43556800da, type: 3}
   intLevel: 0
   floatLevel: 0
   gameArt: {fileID: 2297848134638221622, guid: 587049963c6ba304c9e205b0db336dae, type: 3}
-  usedOrPurchase: 1
+  usedOrPurchase: 0
   gameActionObj: {fileID: 0}

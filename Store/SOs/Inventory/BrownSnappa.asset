@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7fef72ee1b95948a7a76c065548ea42e, type: 3}
   m_Name: BrownSnappa
   m_EditorClassIdentifier: 
-  price: 150
+  price: 180
   own: 0
   previewArt: {fileID: 21300000, guid: 7ccdbb85afc2f984da6adfad3c875efa, type: 3}
   intLevel: 0
